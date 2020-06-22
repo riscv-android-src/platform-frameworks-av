@@ -58,7 +58,7 @@ cc_library_static {
         misc_undefined: [
             "signed-integer-overflow",
         ],
-        cfi: true,
+        cfi: false,
     },
 
     include_dirs: ["frameworks/av/media/libstagefright/include"],
@@ -93,7 +93,7 @@ cc_library_shared {
         misc_undefined: [
             "signed-integer-overflow",
         ],
-        cfi: true,
+        cfi: false,
     },
 
     static_libs: ["libstagefright_mp3dec"],
@@ -120,7 +120,7 @@ cc_test {
         misc_undefined: [
             "signed-integer-overflow",
         ],
-        cfi: true,
+        cfi: false,
     },
 
     static_libs: [

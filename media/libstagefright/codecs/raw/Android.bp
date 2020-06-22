@@ -11,6 +11,6 @@ cc_library_shared {
             "signed-integer-overflow",
             "unsigned-integer-overflow",
         ],
-        cfi: true,
+        cfi: false,
     },
 }

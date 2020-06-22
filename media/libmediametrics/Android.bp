@@ -22,13 +22,13 @@ cc_library_shared {
         "-Wall",
     ],
 
-    sanitize: {
-        misc_undefined: [
-            "unsigned-integer-overflow",
-            "signed-integer-overflow",
-        ],
-        cfi: true,
-    },
+    //sanitize: {
+    //    misc_undefined: [
+    //        "unsigned-integer-overflow",
+    //        "signed-integer-overflow",
+    //    ],
+    //    cfi: false,
+    //},
 
     // enumerate stable entry points, for apex use
     stubs: {
@@ -38,5 +38,4 @@ cc_library_shared {
         ]
     },
 }
-
 

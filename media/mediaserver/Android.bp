@@ -34,7 +34,7 @@ cc_binary {
     ],
 
     // back to 32-bit, b/126502613
-    compile_multilib: "32",
+    compile_multilib: "64",
 
     init_rc: ["mediaserver.rc"],
 

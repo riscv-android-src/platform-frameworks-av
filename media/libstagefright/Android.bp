@@ -17,7 +17,7 @@ cc_library_static {
         misc_undefined: [
             "signed-integer-overflow",
         ],
-        cfi: true,
+        cfi: false,
     },
 
     shared_libs: ["libmedia"],
@@ -36,7 +36,7 @@ cc_library_static {
         misc_undefined: [
             "signed-integer-overflow",
         ],
-        cfi: true,
+        cfi: false,
     },
 
     shared_libs: ["libmedia", "libmediandk"],
@@ -69,7 +69,7 @@ cc_library_shared {
     ],
 
     sanitize: {
-        cfi: true,
+        cfi: false,
         misc_undefined: [
             "unsigned-integer-overflow",
             "signed-integer-overflow",
@@ -104,7 +104,7 @@ cc_library_static {
     ],
 
     sanitize: {
-        cfi: true,
+        cfi: false,
         misc_undefined: [
             "unsigned-integer-overflow",
             "signed-integer-overflow",
@@ -197,7 +197,7 @@ cc_library {
         "libstagefright_codecbase",
         "libstagefright_foundation",
         "libstagefright_omx_utils",
-        "libRScpp",
+        //"libRScpp",
         "libhidlallocatorutils",
         "libhidlbase",
         "libhidlmemory",
@@ -209,11 +209,10 @@ cc_library {
     static_libs: [
         "libstagefright_color_conversion",
         "libyuv_static",
-        "libstagefright_mediafilter",
+        //"libstagefright_mediafilter",
         "libstagefright_webm",
         "libstagefright_timedtext",
         "libogg",
-        "libwebm",
         "libstagefright_esds",
         "libstagefright_id3",
         "libFLAC",
@@ -253,7 +252,7 @@ cc_library {
     },
 
     sanitize: {
-        cfi: true,
+        cfi: false,
         misc_undefined: [
             "unsigned-integer-overflow",
             "signed-integer-overflow",
@@ -312,7 +311,7 @@ cc_library_static {
     },
 
     sanitize: {
-        cfi: true,
+        cfi: false,
         misc_undefined: [
             "unsigned-integer-overflow",
             "signed-integer-overflow",

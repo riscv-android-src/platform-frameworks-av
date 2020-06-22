@@ -55,7 +55,7 @@ cc_library_static {
     name: "libstagefright_nuplayer",
 
     sanitize: {
-        cfi: true,
+        cfi: false,
     },
 
 }

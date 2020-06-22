@@ -53,7 +53,7 @@ cc_library_shared {
     ],
 
     sanitize: {
-        cfi: true,
+        cfi: false,
         misc_undefined: [
             "unsigned-integer-overflow",
             "signed-integer-overflow",

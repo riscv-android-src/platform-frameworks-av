@@ -30,7 +30,7 @@ cc_library_shared {
             "unsigned-integer-overflow",
             "signed-integer-overflow",
         ],
-        cfi: true,
+        cfi: false,
     },
 
     ldflags: ["-Wl,-Bsymbolic"],
@@ -78,7 +78,7 @@ cc_defaults {
             "unsigned-integer-overflow",
             "signed-integer-overflow",
         ],
-        cfi: true,
+        cfi: false,
     },
 }
 
@@ -91,7 +91,7 @@ cc_defaults {
         misc_undefined: [
             "signed-integer-overflow",
         ],
-        cfi: true,
+        cfi: false,
     },
 }
 
@@ -126,7 +126,7 @@ cc_library_shared {
             "unsigned-integer-overflow",
             "signed-integer-overflow",
         ],
-        cfi: true,
+        cfi: false,
     },
 
     ldflags: ["-Wl,-Bsymbolic"],

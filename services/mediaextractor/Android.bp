@@ -28,17 +28,17 @@ cc_binary {
         "liblog",
         "libavservices_minijail",
     ],
-    target: {
-        android: {
-            product_variables: {
-                malloc_not_svelte: {
-                    // Scudo increases memory footprint, so only enable on
-                    // non-svelte devices.
-                    shared_libs: ["libc_scudo"],
-                },
-            },
-        },
-    },
+    //target: {
+    //    android: {
+    //        product_variables: {
+    //            malloc_not_svelte: {
+    //                // Scudo increases memory footprint, so only enable on
+    //                // non-svelte devices.
+    //                shared_libs: ["libc_scudo"],
+    //            },
+    //        },
+    //    },
+    //},
     init_rc: ["mediaextractor.rc"],
 
     include_dirs: ["frameworks/av/media/libmedia"],
@@ -58,6 +58,9 @@ prebuilt_etc {
         },
         arm64: {
             src: "seccomp_policy/mediaextractor-arm64.policy",
+        },
+        riscv64: {
+            src: "seccomp_policy/mediaextractor-riscv64.policy",
         },
         x86: {
             src: "seccomp_policy/mediaextractor-x86.policy",

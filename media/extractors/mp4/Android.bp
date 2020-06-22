@@ -42,7 +42,7 @@ cc_library_shared {
     defaults: ["libmp4extractor_defaults"],
 
     sanitize: {
-        cfi: true,
+        cfi: false,
         misc_undefined: [
             "unsigned-integer-overflow",
             "signed-integer-overflow",

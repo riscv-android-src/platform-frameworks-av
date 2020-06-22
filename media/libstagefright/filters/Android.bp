@@ -6,9 +6,9 @@ cc_library_static {
         "GraphicBufferListener.cpp",
         "IntrinsicBlurFilter.cpp",
         "MediaFilter.cpp",
-        "RSFilter.cpp",
+        //"RSFilter.cpp",
         "SaturationFilter.cpp",
-        "saturationARGB.rs",
+        //"saturationARGB.rs",
         "SimpleFilter.cpp",
         "ZeroFilter.cpp",
     ],
@@ -30,6 +30,6 @@ cc_library_static {
     ],
 
     sanitize: {
-        cfi: true,
+        cfi: false,
     },
 }

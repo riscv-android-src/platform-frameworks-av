@@ -24,7 +24,6 @@ apex_defaults {
                 "libamrextractor",
                 "libflacextractor",
                 "libmidiextractor",
-                "libmkvextractor",
                 "libmp3extractor",
                 "libmp4extractor",
                 "libmpeg2extractor",

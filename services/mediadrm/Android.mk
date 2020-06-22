@@ -40,9 +40,9 @@ LOCAL_MODULE:= mediadrmserver
 # 64-bit. (b/18948909) Once all of a device's legacy DRM plugins support 64-bit,
 # that device can turn on TARGET_ENABLE_MEDIADRM_64 to build this service as
 # 64-bit.
-ifneq ($(TARGET_ENABLE_MEDIADRM_64), true)
-LOCAL_32_BIT_ONLY := true
-endif
+#ifneq ($(TARGET_ENABLE_MEDIADRM_64), true)
+#LOCAL_32_BIT_ONLY := true
+#endif
 
 LOCAL_INIT_RC := mediadrmserver.rc
 

@@ -31,7 +31,7 @@ cc_library_shared {
     version_script: "exports.lds",
 
     sanitize: {
-        cfi: true,
+        cfi: false,
         misc_undefined: [
             "unsigned-integer-overflow",
             "signed-integer-overflow",

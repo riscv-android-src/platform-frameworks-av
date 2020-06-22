@@ -23,6 +23,6 @@ cc_test {
     ],
 
     sanitize: {
-        cfi: true,
+        cfi: false,
     },
 }

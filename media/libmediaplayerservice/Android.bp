@@ -67,7 +67,7 @@ cc_library_shared {
     name: "libmediaplayerservice",
 
     sanitize: {
-        cfi: true,
+        cfi: false,
     },
 
 }

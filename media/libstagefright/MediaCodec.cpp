@@ -875,7 +875,8 @@ sp<CodecBase> MediaCodec::GetCodecBase(const AString &name, const char *owner) {
         // at this time only ACodec specifies a mime type.
         return new ACodec;
     } else if (name.startsWithIgnoreCase("android.filter.")) {
-        return new MediaFilter;
+        //return new MediaFilter;
+        return NULL;
     } else {
         return NULL;
     }
