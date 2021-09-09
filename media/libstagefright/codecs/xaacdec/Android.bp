@@ -22,7 +22,7 @@ cc_library_shared {
     sanitize: {
         // integer_overflow: true,
         misc_undefined: [ "signed-integer-overflow", "unsigned-integer-overflow", ],
-        cfi: true,
+        cfi: false,
         config: {
             cfi_assembly_support: true,
         },

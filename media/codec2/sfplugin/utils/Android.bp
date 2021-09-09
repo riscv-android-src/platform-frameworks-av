@@ -44,7 +44,7 @@ cc_library {
     ],
 
     sanitize: {
-        cfi: true,
+        cfi: false,
         misc_undefined: [
             "unsigned-integer-overflow",
             "signed-integer-overflow",

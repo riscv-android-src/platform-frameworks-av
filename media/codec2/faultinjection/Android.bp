@@ -30,7 +30,7 @@ cc_library_shared {
             "unsigned-integer-overflow",
             "signed-integer-overflow",
         ],
-        cfi: true,
+        cfi: false,
     },
 
     ldflags: ["-Wl,-Bsymbolic"],

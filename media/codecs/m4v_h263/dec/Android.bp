@@ -65,7 +65,7 @@ cc_library_static {
         misc_undefined: [
             "signed-integer-overflow",
         ],
-        cfi: true,
+        cfi: false,
     },
 
     target: {

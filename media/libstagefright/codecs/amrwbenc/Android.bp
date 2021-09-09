@@ -20,7 +20,7 @@ cc_library_shared {
         misc_undefined: [
             "signed-integer-overflow",
         ],
-        cfi: true,
+        cfi: false,
     },
 
     static_libs: ["libstagefright_amrwbenc"],

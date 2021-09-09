@@ -76,7 +76,7 @@ cc_library_static {
         misc_undefined: [
             "signed-integer-overflow",
         ],
-        cfi: true,
+        cfi: false,
     },
 }
 
@@ -100,7 +100,7 @@ cc_test {
         misc_undefined: [
             "signed-integer-overflow",
         ],
-        cfi: true,
+        cfi: false,
     },
 
     static_libs: ["libstagefright_m4vh263enc"],

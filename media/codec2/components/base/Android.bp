@@ -39,7 +39,7 @@ cc_library {
             "unsigned-integer-overflow",
             "signed-integer-overflow",
         ],
-        cfi: true,
+        cfi: false,
     },
 
     ldflags: ["-Wl,-Bsymbolic"],
@@ -87,7 +87,7 @@ cc_defaults {
             "unsigned-integer-overflow",
             "signed-integer-overflow",
         ],
-        cfi: true,
+        cfi: false,
     },
 }
 
@@ -107,7 +107,7 @@ cc_defaults {
     name: "libcodec2_soft_sanitize_cfi-defaults",
 
     sanitize: {
-        cfi: true,
+        cfi: false,
         config: {
             cfi_assembly_support: true,
         },
@@ -145,7 +145,7 @@ cc_library {
             "unsigned-integer-overflow",
             "signed-integer-overflow",
         ],
-        cfi: true,
+        cfi: false,
     },
 
     ldflags: ["-Wl,-Bsymbolic"],

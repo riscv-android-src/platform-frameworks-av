@@ -147,7 +147,7 @@ cc_library_shared {
             "unsigned-integer-overflow",
             "signed-integer-overflow",
         ],
-        cfi: true,
+        cfi: false,
     },
 }
 
@@ -206,7 +206,7 @@ cc_library_shared {
             "unsigned-integer-overflow",
             "signed-integer-overflow",
         ],
-        cfi: true,
+        cfi: false,
     },
 }
 
@@ -237,7 +237,7 @@ cc_library_static {
             "unsigned-integer-overflow",
             "signed-integer-overflow",
         ],
-        cfi: true,
+        cfi: false,
     },
 
     host_supported: true,
@@ -288,7 +288,7 @@ cc_library_shared {
             "unsigned-integer-overflow",
             "signed-integer-overflow",
         ],
-        cfi: true,
+        cfi: false,
     },
 }
 
@@ -404,7 +404,7 @@ cc_library {
             "unsigned-integer-overflow",
             "signed-integer-overflow",
         ],
-        cfi: true,
+        cfi: false,
     },
 }
 

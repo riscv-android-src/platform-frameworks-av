@@ -88,7 +88,7 @@ cc_library_shared {
             "signed-integer-overflow",
             "unsigned-integer-overflow",
         ],
-        cfi: true,
+        cfi: false,
     },
 
 }
@@ -135,7 +135,7 @@ cc_library_shared {
             "signed-integer-overflow",
             "unsigned-integer-overflow",
         ],
-        cfi: true,
+        cfi: false,
     },
 }
 
@@ -178,7 +178,7 @@ cc_library_shared {
             "signed-integer-overflow",
             "unsigned-integer-overflow",
         ],
-        cfi: true,
+        cfi: false,
     },
 }
 
@@ -206,7 +206,7 @@ cc_defaults {
             "signed-integer-overflow",
             "unsigned-integer-overflow",
         ],
-        cfi: true,
+        cfi: false,
     },
 
     compile_multilib: "32",
@@ -242,7 +242,7 @@ cc_library_shared {
             "signed-integer-overflow",
             "unsigned-integer-overflow",
         ],
-        cfi: true,
+        cfi: false,
     },
     cflags: ["-Wall", "-Werror"],
 }

@@ -154,7 +154,7 @@ cc_library_static {
 
     cflags: ["-Werror"],
     sanitize: {
-        cfi: true,
+        cfi: false,
     },
 
     host_supported: true,
