@@ -27,6 +27,7 @@ restart_syscall: 1
 exit: 1
 exit_group: 1
 rt_sigreturn: 1
+rt_sigprocmask: 1
 getrlimit: 1
 nanosleep: 1
 getrandom: 1
@@ -46,5 +47,3 @@ mremap: 1
 # Required by Sanitizers
 sched_yield: 1
 
-@include /apex/com.android.media/etc/seccomp_policy/crash_dump.riscv64.policy
-@include /apex/com.android.media/etc/seccomp_policy/code_coverage.riscv64.policy
