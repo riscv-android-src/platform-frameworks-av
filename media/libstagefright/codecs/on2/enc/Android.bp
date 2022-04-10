@@ -31,14 +31,6 @@ cc_library_shared {
 
     version_script: "exports.lds",
 
-    sanitize: {
-        misc_undefined: [
-            "signed-integer-overflow",
-            "unsigned-integer-overflow",
-        ],
-        cfi: false,
-    },
-
     shared_libs: ["libvpx"],
     header_libs: ["libbase_headers"],
 }

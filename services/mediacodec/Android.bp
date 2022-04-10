@@ -120,7 +120,6 @@ cc_binary {
     ],
 
     // OMX interfaces force this to stay in 32-bit mode;
-    compile_multilib: "32",
 
     init_rc: ["android.hardware.media.omx@1.0-service.rc"],
 
