@@ -51,7 +51,7 @@ cc_library_static {
         misc_undefined: [
             "signed-integer-overflow",
         ],
-        cfi: false,
+        cfi: true,
     },
     shared_libs: [
         "libstagefright_foundation",
@@ -83,7 +83,7 @@ cc_library_static {
         misc_undefined: [
             "signed-integer-overflow",
         ],
-        cfi: false,
+        cfi: true,
     },
 
     header_libs: [
@@ -138,7 +138,7 @@ cc_library_shared {
     ],
 
     sanitize: {
-        cfi: false,
+        cfi: true,
         misc_undefined: [
             "unsigned-integer-overflow",
             "signed-integer-overflow",
@@ -184,7 +184,7 @@ cc_library_static {
     ],
 
     sanitize: {
-        cfi: false,
+        cfi: true,
         misc_undefined: [
             "unsigned-integer-overflow",
             "signed-integer-overflow",
@@ -394,7 +394,7 @@ cc_library {
     },
 
     sanitize: {
-        cfi: false,
+        cfi: true,
         misc_undefined: [
             "unsigned-integer-overflow",
             "signed-integer-overflow",

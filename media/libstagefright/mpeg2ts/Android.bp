@@ -42,7 +42,7 @@ cc_defaults {
             "unsigned-integer-overflow",
             "signed-integer-overflow",
         ],
-        cfi: false,
+        cfi: true,
     },
 
     shared_libs: [

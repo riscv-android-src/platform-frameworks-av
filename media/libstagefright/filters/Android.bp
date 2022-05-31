@@ -43,6 +43,6 @@ cc_library_static {
     ],
 
     sanitize: {
-        cfi: false,
+        cfi: true,
     },
 }

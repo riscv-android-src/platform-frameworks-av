@@ -100,7 +100,7 @@ cc_library {
     name: "libmediaplayerservice",
 
     sanitize: {
-        cfi: false,
+        cfi: true,
     },
 
 }

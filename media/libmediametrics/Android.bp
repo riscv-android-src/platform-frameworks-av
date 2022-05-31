@@ -43,7 +43,7 @@ cc_library {
             "unsigned-integer-overflow",
             "signed-integer-overflow",
         ],
-        cfi: false,
+        cfi: true,
     },
 
     // enumerate stable entry points, for apex use

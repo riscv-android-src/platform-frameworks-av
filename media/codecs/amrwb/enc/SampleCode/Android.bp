@@ -42,6 +42,6 @@ cc_test {
     ],
 
     sanitize: {
-        cfi: false,
+        cfi: true,
     },
 }

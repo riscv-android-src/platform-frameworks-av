@@ -105,7 +105,7 @@ cc_library_static {
         misc_undefined: [
             "signed-integer-overflow",
         ],
-        cfi: false,
+        cfi: true,
     },
 
     include_dirs: ["frameworks/av/media/libstagefright/include"],
@@ -146,7 +146,7 @@ cc_test {
         misc_undefined: [
             "signed-integer-overflow",
         ],
-        cfi: false,
+        cfi: true,
     },
 
     static_libs: [

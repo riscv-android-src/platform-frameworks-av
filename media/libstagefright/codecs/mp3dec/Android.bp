@@ -20,7 +20,7 @@ cc_library_shared {
         misc_undefined: [
             "signed-integer-overflow",
         ],
-        cfi: false,
+        cfi: true,
     },
 
     static_libs: ["libstagefright_mp3dec"],

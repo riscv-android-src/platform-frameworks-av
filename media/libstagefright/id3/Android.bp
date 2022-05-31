@@ -38,7 +38,7 @@ cc_library_static {
         misc_undefined: [
             "signed-integer-overflow",
         ],
-        cfi: false,
+        cfi: true,
     },
     host_supported: true,
     target: {
@@ -73,7 +73,7 @@ cc_test {
     static_libs: ["libstagefright_id3"],
 
     sanitize: {
-        cfi: false,
+        cfi: true,
     },
 
 }

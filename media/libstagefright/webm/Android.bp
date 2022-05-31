@@ -22,7 +22,7 @@ cc_library_static {
             "signed-integer-overflow",
             "unsigned-integer-overflow",
         ],
-        cfi: false,
+        cfi: true,
     },
 
     srcs: [

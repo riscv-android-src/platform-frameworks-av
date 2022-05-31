@@ -53,6 +53,6 @@ cc_test {
             "signed-integer-overflow",
             "unsigned-integer-overflow",
         ],
-        cfi: false,
+        cfi: true,
     },
 }

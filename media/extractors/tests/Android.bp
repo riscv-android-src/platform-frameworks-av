@@ -100,7 +100,7 @@ cc_test {
     ],
 
     sanitize: {
-        cfi: false,
+        cfi: true,
         misc_undefined: [
             "unsigned-integer-overflow",
             "signed-integer-overflow",

@@ -30,7 +30,7 @@ cc_library_shared {
             "signed-integer-overflow",
             "unsigned-integer-overflow",
         ],
-        cfi: false,
+        cfi: true,
     },
 
     header_libs: ["libbase_headers"],
