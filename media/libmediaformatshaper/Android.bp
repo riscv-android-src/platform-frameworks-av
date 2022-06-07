@@ -81,7 +81,7 @@ cc_defaults {
     },
 
     sanitize: {
-        cfi: false,
+        cfi: true,
         misc_undefined: [
             "unsigned-integer-overflow",
             "signed-integer-overflow",
