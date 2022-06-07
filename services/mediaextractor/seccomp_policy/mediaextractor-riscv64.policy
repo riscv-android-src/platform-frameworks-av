@@ -35,9 +35,6 @@ timer_create: 1
 timer_settime: 1
 timer_delete: 1
 
-# for FileSource
-readlinkat: 1
-
 # for dynamically loading extractors
 getdents64: 1
 readlinkat: 1

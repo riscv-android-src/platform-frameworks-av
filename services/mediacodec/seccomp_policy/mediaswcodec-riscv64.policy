@@ -25,7 +25,6 @@ mmap: 1
 munmap: 1
 fstat: 1
 madvise: 1
-fstatat64: 1
 newfstatat: 1
 futex: 1
 faccessat: 1
